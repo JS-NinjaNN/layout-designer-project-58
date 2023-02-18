@@ -247,3 +247,7 @@ ul {
 .text-white-transculent {
   color: var(--white-translucent);
 }
+
+.text-dark {
+  color: var(--dark);
+}
