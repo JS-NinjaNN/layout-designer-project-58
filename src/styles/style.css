@@ -21,11 +21,12 @@
 
 body {
   margin: 0;
+
   color: var(--dark);
-  font-size: 16px;
-  line-height: 1.6em;
   font-weight: normal;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
 }
 
 h1,
@@ -42,6 +43,7 @@ h6 {
 
 h1 {
   font-size: 72px;
+  margin-bottom: 185px;
 }
 
 h2 {
@@ -56,13 +58,15 @@ a {
   text-decoration: none;
 }
 
+.mb-30 {
+  margin-bottom: 30px;
+}
+
 .container {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   max-width: 1110px;
-  min-height: 700px;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -119,4 +123,24 @@ a {
 .btn:hover,
 .btn:focus {
   background-color: var(--button-hover);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -200px;
+  text-align: center;
+}
+
+.wrapper p {
+  margin-bottom: 30px;
+}
+
+.video {
+  margin: 0 auto;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.cards {
+  background-color: var(--main-dark);
 }
