@@ -79,7 +79,6 @@ ul {
 
 .bg-image {
   position: relative;
-  background-color: var(--light);
 }
 
 .bg-image::before {
@@ -235,4 +234,16 @@ ul {
 
 .bg-brown {
   background-color: var(--brown);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.text-brown {
+  color: var(--brown);
+}
+
+.text-white-transculent {
+  color: var(--white-translucent);
 }
